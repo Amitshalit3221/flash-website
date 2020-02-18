@@ -27,4 +27,13 @@ $('.multiple-items').slick({
 });
 
 
+function logoRemove () {
+	var x = document.getElementById("img-logo-main");
+	if (x.style.display === "none") {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "none";
+	}
+  }
+
 
