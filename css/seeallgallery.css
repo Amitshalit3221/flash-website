@@ -1,0 +1,19 @@
+.ul-row {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+i {
+    color: #313131;
+}
+
+.parent {
+    margin-top: 0px !important;
+}
+
+.big-mama {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
