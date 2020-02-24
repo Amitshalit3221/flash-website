@@ -1,1 +1,0 @@
-Listen here you little shit. touch my baby and nigger you ok?

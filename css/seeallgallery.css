@@ -7,6 +7,10 @@ i {
     color: #313131;
 }
 
+.mobile-i {
+    font-size: 30px !important;
+}
+
 .parent {
     margin-top: 0px !important;
 }
@@ -17,3 +21,25 @@ i {
     margin-left: auto;
     justify-content: center;
 }
+
+.go-back {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 55px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-property: all; 
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+  
+i {
+      font-size: 50px !important;
+      color:#494949;
+}
+  
+  
+  .ipad-con {
+    margin-top: 120px;
+  }
