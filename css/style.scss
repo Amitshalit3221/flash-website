@@ -215,6 +215,8 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     background-image: url(/images/P1250020.JPG);
+    background-position: center;
+    background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -237,6 +239,12 @@
       .more-info {
        width: 500px;
        margin-left: 100px;
+       a {
+         color:#258eff;
+         &:hover {
+           color: #409cff;
+         }
+       }
       }
 
        #about-us-img {
@@ -371,6 +379,7 @@
 
       p {
         color:#000000 !important;
+        font-size: 19px;
       }
 
       iframe {
@@ -777,10 +786,21 @@ footer {
 
     h5 {
       font-size: 30px;
+      margin-bottom: 20px;
     }
     p {
-      font-size: 19px;
+      font-size: 22px;
+      word-spacing: 0.5px;
+      line-height: 45px;
+      width: 750px;
       margin-top: 30px;
+    }
+
+    a {
+      color: #258eff;
+      &:hover {
+        color: #409cff;
+      }
     }
   }
 
@@ -793,7 +813,6 @@ footer {
     transition-property: all; 
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-    margin-top:  60px;
     &:hover{
       box-shadow:0 0 1px 0 rgba(0, 0, 0, 0.603),0 1px 10px 0 rgba(0, 0, 0, 0.774);
       transition: ease-in-out;
@@ -951,6 +970,12 @@ footer {
   .meat-the-team-div {
     margin-top: 30px;
     margin-left: 10px;
+    a {
+      color:#258eff;
+      &:hover {
+        color: #409cff;
+      }
+    }
   }
 
   .mobile-home-sep {
@@ -1086,6 +1111,13 @@ footer {
   .more-info-div {
     margin-left: 10px;
     margin-top: 30px;
+
+    a {
+      color:#258eff;
+      &:hover {
+        color: #409cff;
+      }
+    }
   }
 
   .mobile-about-sep {
@@ -1310,6 +1342,12 @@ footer {
 .contact-us-mobile-ipad {
   display: flex;
   flex-direction: column;
+  a {
+    color: #000000;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .copyright-ipad-fuck {
@@ -1496,7 +1534,26 @@ footer {
     font-size: 30px;
     margin-left: 50px;
     width: 900px;
-    margin-top: 20px;
+    margin-top: 50px;
+
+    a {
+      color: #258eff;
+      &:hover {
+        color:#409cff;
+      }
+    }
+  }
+
+  .sponser-us-button-ipad {
+    background-color: #d41b1b;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
   }
 
   .first-sep-ipad {
@@ -1505,7 +1562,7 @@ footer {
     margin-right: auto;
     width: 90%;
     justify-content: center;
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(201, 201, 201);
   }
 
   .insagram-feed-ipad {
@@ -1663,5 +1720,12 @@ footer {
   i {
     font-size: 30px;
     color:#494949;
+    margin-right: 20px;
   }
+}
+
+.go-back-sponser {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 0px;
 }

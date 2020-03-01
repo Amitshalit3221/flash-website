@@ -210,6 +210,8 @@ a[data-toggle="collapse"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background-image: url(/images/P1250020.JPG);
+  background-position: center;
+  background-size: cover;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -240,6 +242,14 @@ a[data-toggle="collapse"] {
 #about-content .info .more-info {
   width: 500px;
   margin-left: 100px;
+}
+
+#about-content .info .more-info a {
+  color: #258eff;
+}
+
+#about-content .info .more-info a:hover {
+  color: #409cff;
 }
 
 #about-content .info #about-us-img {
@@ -383,6 +393,7 @@ a[data-toggle="collapse"] {
 
 .over-con .first-div-con p {
   color: #000000 !important;
+  font-size: 19px;
 }
 
 .over-con .first-div-con iframe {
@@ -865,11 +876,23 @@ footer .copyright p {
 
 .more-information .title-and-p h5 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .more-information .title-and-p p {
-  font-size: 19px;
+  font-size: 22px;
+  word-spacing: 0.5px;
+  line-height: 45px;
+  width: 750px;
   margin-top: 30px;
+}
+
+.more-information .title-and-p a {
+  color: #258eff;
+}
+
+.more-information .title-and-p a:hover {
+  color: #409cff;
 }
 
 .more-information #more-img {
@@ -886,7 +909,6 @@ footer .copyright p {
           transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
-  margin-top: 60px;
 }
 
 .more-information #more-img:hover {
@@ -1046,6 +1068,12 @@ footer .copyright p {
     margin-top: 30px;
     margin-left: 10px;
   }
+  .meat-the-team-div a {
+    color: #258eff;
+  }
+  .meat-the-team-div a:hover {
+    color: #409cff;
+  }
   .mobile-home-sep {
     width: 95%;
     margin-left: auto;
@@ -1170,6 +1198,12 @@ footer .copyright p {
   .more-info-div {
     margin-left: 10px;
     margin-top: 30px;
+  }
+  .more-info-div a {
+    color: #258eff;
+  }
+  .more-info-div a:hover {
+    color: #409cff;
   }
   .mobile-about-sep {
     width: 95%;
@@ -1395,6 +1429,12 @@ footer .copyright p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact-us-mobile-ipad a {
+    color: #000000;
+  }
+  .contact-us-mobile-ipad a:hover {
+    text-decoration: none;
+  }
   .copyright-ipad-fuck {
     font-size: 20px !important;
   }
@@ -1576,7 +1616,24 @@ footer .copyright p {
     font-size: 30px;
     margin-left: 50px;
     width: 900px;
-    margin-top: 20px;
+    margin-top: 50px;
+  }
+  .page-content-ipad .main-p-ipad a {
+    color: #258eff;
+  }
+  .page-content-ipad .main-p-ipad a:hover {
+    color: #409cff;
+  }
+  .page-content-ipad .sponser-us-button-ipad {
+    background-color: #d41b1b;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
   }
   .page-content-ipad .first-sep-ipad {
     margin-top: 50px;
@@ -1586,7 +1643,7 @@ footer .copyright p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #707070;
+    background-color: #c9c9c9;
   }
   .page-content-ipad .insagram-feed-ipad {
     margin-left: 50px;
@@ -1734,5 +1791,12 @@ footer .copyright p {
 .go-back i {
   font-size: 30px;
   color: #494949;
+  margin-right: 20px;
+}
+
+.go-back-sponser {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 0px;
 }
 /*# sourceMappingURL=style.css.map */
